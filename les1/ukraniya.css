@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+header{
+    height: 100px;
+    background-color: white;
+}
+li {
+    display: inline-block;
+    padding: 20px;
+}
+h3{
+    display: inline-block;
+    line-height: 100px;
+    margin-left: 30px;
+   font-size: 30px;
+}
+ul{
+  display: inline-block;
+  margin-left: 350px;
+}
+#first_section{
+   background-image: url("https://hips.hearstapps.com/hmg-prod/images/lago-1257-home-office-36e8-with-air-desk-1593015859.jpg?crop=1.00xw:0.937xh;0,0.0537xh&resize=2048:*");
+    height: 700px;
+    width: 1519px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align:center;
+    
+}
+#we_Change{
+    background-color: rgb(255, 0, 1 );
+    width: 700px;
+    height: 120px;
+    text-align: center;
+    margin: 0 auto;
+}
+#revan{
+    font-size: 25px;
+    padding-top: 15px;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-left: 900px;
+    margin-left: 900px;
+    margin-left: 900px ;
+}
+button{
+    background-color:blueviolet;
+    
+}

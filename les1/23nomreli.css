@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+header{
+    height: 100px;
+    background-color: white;
+}
+li{
+    display: inline-block;
+    padding: 20px;
+}
+h1{
+    display: inline-block;
+    line-height: 100px;
+    margin-left: 30px;
+   font-size: 55px;
+   font-weight: 900;
+   color: blue;
+}
+ul{
+    display: inline-block;
+    margin-left: 350px;
+
+}
+#tuncay{
+    background-image: url("https://www.nitidodesign.com/blog/wp-content/uploads/2020/04/austin-distel-wawEfYdpkag-unsplash-1024x768.jpg");
+    height: 700px;
+    width: 1349px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align:center;
+}
+#ramil{
+    width: 900px;
+    height: 120px;
+    text-align: center;
+    margin: 0 auto;
+}
+button{
+    background-color: blue;
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+}
+#Revan{
+    background-image: url("https://www.nitidodesign.com/blog/wp-content/uploads/2020/04/austin-distel-wawEfYdpkag-unsplash-1024x768.jpg");
+    width: 500px;
+    height: 500px;
+
+}

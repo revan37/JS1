@@ -1,0 +1,286 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.container {
+    width: 80%;
+    max-width: 1140px;
+}
+header{
+    height: 100px;
+}
+h4{
+    display: inline-block;
+    line-height: 100px;
+    margin-left: 30px;
+    font-size: 55px;
+    font-weight: 900;
+    color:black
+}
+ul{
+    display: inline-block;
+    margin-left: 350px;
+}
+li{
+    display: inline-block;
+    padding: 20px;
+
+}
+#buttonRing{
+    width: 130px;
+    height: 40px;
+    font-size: 17px;
+    border: 2px solid black;
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+}
+#buttonRing div{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: orangered;
+    top: 0;
+    right: 100%;
+    transition: 1s;
+    z-index: -1;
+}
+#buttonRing:hover div{
+    right: 0%;
+}
+#second_section{
+    background-image: url("https://preview.colorlib.com/theme/passport/images/hero_1.jpg.webp");
+    height: 700px;
+    width: 1349px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align:center;
+}
+#text45{
+    display: inline-block;
+    line-height: 60px;
+    margin-right: 800px;
+    font-size: 30px;
+}
+.container{
+    max-width: 1320px;
+    margin: 0 auto;
+}
+#second_section.container>div
+#images div{
+    display: inline-block;
+}
+#text{
+    width: 550px;
+    display: inline-block;
+}
+#images{
+    margin-left: 115px;
+    width: 650px;
+    display: inline-block;
+
+}
+#text span{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 70px;
+    color: #fc8621;
+}
+#text h3{
+    font-size: 46px;
+    color: #000;
+    font-weight: 700px;
+    margin-bottom: 16px;
+}
+text p{
+    font-weight: 400px;
+    font-size: 14px;
+    margin-bottom: 16px;
+    color: #212529;
+}
+#text button{
+    padding: 10px 30px;
+    border-radius: 30px;
+    line-height: 1.5;
+    font-size: 16px;
+    color: #fff;
+    background-color: #fc8621;
+    border-color: #fc8621;
+    border: 1px solid #fc8621;
+}
+#images div{
+    width: 300px;
+    display: inline-block;
+}
+#images div img{
+    width: 100%;
+}
+#img2{
+    transform: translateY(40px);
+}
+.container{
+    max-width: 1320px;
+    margin: 0 auto;
+}
+#office span{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 70px;
+    color: #fc8621;
+}
+#office h2{
+    font-size: 46px;
+    color: #000;
+    font-weight: 700px;
+    margin-bottom: 16px;
+}
+#office p{
+    font-weight: 400px;
+    font-size: 14px;
+    margin-bottom: 16px;
+    color: #212529;
+}
+#office img{
+    display: inline-block;
+    width: 320px;
+    vertical-align: top;
+    padding-right: 50px;
+}
+#office h3{
+    font-size: 20px;
+    color: #000;
+    font-weight: 700px;
+    margin-bottom: 16px;
+}.container{
+    max-width: 1320px;
+    margin: 0 auto;
+}
+#fly{
+    margin-top: 25px;
+    width: 480px;
+    height: 300px;
+}
+#fly span{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fc8621;
+}
+#fly h2{
+    font-size: 46px;
+    color: #000;
+    font-weight: 700;
+}
+#fly img{
+    width: 80px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+}
+#fly h3{
+    font-size: 18px;
+    color: #fc8621;
+    margin-bottom: 0;
+}
+#fly p{
+    font-size: 14px;
+}
+#p{
+    font-size: 18px;
+    color: #000;
+    line-height: 2;
+    margin-bottom: 30px;
+}
+.container{
+    max-width: 1320px;
+    margin: 0 auto;
+}
+#subheading{
+    margin-top: 25px;
+    width: 480px;
+    height: 300px;
+    display: flex;
+    justify-content: flex-end;
+}
+.testimonials_faq {
+    display: flex;
+}
+#subheading span{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fc8621;
+    display: inline-block;
+}
+#subheading h2{
+    font-size: 46px;
+    color: #000;
+    font-weight: 700;
+}
+#daglar_oglu span{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fc8621;
+}
+#daglar_oglu h2{
+    font-size: 46px;
+    color: #000;
+    font-weight: 700;
+}
+#daglar{
+    display: flex;
+    justify-content: center;
+}
+#daglar img{
+    width: 261px;
+    font-size: 16px;
+    font-weight: 700;
+}
+#daglar span{
+    font-size: 12px;
+}
+#daglar h3{
+    color: #fc8621;
+}
+#daglar p{
+    font-size: 14px;
+}
+.urey{
+    left: 0;
+    opacity: 1;
+    visibility: visible;
+}
+#ciyer img{
+    width: 261px;
+    max-width: 100%;
+    height: auto;
+}
+#ciyer span{
+    font-size: 12px;
+}
+#ciyer h3{
+    color: #fc8621;
+}
+#ciyer p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+#dalag img{
+    width: 261px;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+#dalag span{
+    font-size: 12px;
+}
+#dalag h3{
+    color: #fc8621;
+}
+#dalag p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+}

@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    background-color: teal;
+}
+header{
+    height: 80px;
+    background-color: orangered;
+}
+h2{
+    line-height: 50px;
+    margin-left: 250px;
+    display: inline-block;
+}
+ul{
+    display: inline-block;
+    margin-left: 600px;
+}
+ul li{
+    display: inline-block;
+    padding: 0 20px;
+    color: rgb(46, 18, 18);
+}
+section{
+    height: calc(100vh - 50px);
+    background-image: url("https://tryengineering.org/wp-content/uploads/bigstock-208614778.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+section > div{
+    width: 600px;
+    margin: 0 auto;
+    padding-top: 210px;
+}
+section h2,
+section p,
+section button{
+    text-align: center;
+}
+section h2{
+    color: white;
+    font-size: 40px;
+   
+}
+section p{
+    color: yellow;
+    font-size: 17px;
+    margin: 20px 0;
+   
+}
+section div  div{
+    text-align: center;
+}
+section button{
+    color: white;
+    background-color: red;
+    display: inline-block;
+    height: 50px;
+    width: 100px;
+    border: none;
+    border-radius: 15px;
+}
+h4{
+    text-align: center;
+    margin-top: 50px;
+}
+.sahmat{
+    display: inline-block;
+    width: 30%;
+    background-color: white;
+    height: 250px;
+    vertical-align: top;
+    margin: 10px;
+    border-radius: 20px;
+    margin: 0 auto;
+    
+}
+#baki{
+    width: 800px;
+    margin:0 auto;
+}
+image{
+    margin: 30px;
+}
+
+

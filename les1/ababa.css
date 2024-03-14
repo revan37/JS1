@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+header{
+    height: 100px;
+    background-color: white;
+}
+#content{
+   max-width: 900%;
+}
+h2{
+    display: inline-block;
+    line-height: 100px;
+    margin-left: 100px;
+    font-size: 30px;
+}
+ul{
+    display: inline-block;
+    margin-left: 50px;
+}
+li{
+    display: inline-block;
+    padding: 20px;
+}
+#button{
+    background-color: blue;
+    color: white;
+    height: 60px;
+    width: 90px;
+    border-radius: 20px;
+}
+button{
+    background-color: white;
+    color: blue;
+    height: 60px;
+    width: 120px;
+    border-radius: 10px;
+}
+#ford{
+    background-image: url("https://preview.colorlib.com/theme/knuford/images/bg_1.jpg.webp");
+    height: 700px;
+    width: 1349px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#prius{
+    background-image: url("https://preview.colorlib.com/theme/knuford/images/about.jpg.webp");
+    height: 700px;
+    width: 1049px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 300px;
+}

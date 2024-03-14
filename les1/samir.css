@@ -1,0 +1,50 @@
+h1{
+    color: black;
+    text-align: center;
+}
+body{
+    background-color: aqua;
+    
+}
+img{
+    border-radius: 20px;
+    width: 180px;
+    height:110px ;
+}
+.sahmat{
+   border-radius: 20px;
+   margin: 0 auto;
+   display: inline block;
+   height: 235px;
+   padding: 10px;
+   margin-bottom: 10px;
+   margin-right: 10px;
+   background-color: white;
+   width: 300px;
+
+}
+#satis{
+    border-radius: 20px;
+    width: 500px;
+    margin: o auto;
+    height: 510px;
+    border: 2px solid white;
+    border-left: 10px;
+    padding: 10px;
+    display: inline block;
+}
+span{
+    display: block;
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+button{
+    border-radius: 10px;
+    color:black;
+    background-color: red;
+    margin-left: 50px;
+    width: 85px;
+    height: 30px;
+}

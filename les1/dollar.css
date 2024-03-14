@@ -1,0 +1,194 @@
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+button{
+    display: block;
+    margin:20px 0 ;
+}
+#buttonFirst{
+    width: 130px;
+    height: 40px;
+    font-size: 17px;
+    background-color: red;
+    border: 2px solid black;
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+}
+#buttonFirst div{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+    top: 0;
+    left: 100%;
+    transition: 1s;
+    z-index: -1;
+}
+#buttonFirst:hover div{
+    left: 0%;
+}
+#buttonRing{
+    width: 130px;
+    height: 40px;
+    font-size: 17px;
+    background-color: red ;
+    border: 2px solid black;
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+}
+#buttonRing div{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+    top: 0;
+    right: 100%;
+    transition: 1s;
+    z-index: -1;
+}
+#buttonRing:hover div{
+    right: 0%;
+}
+#buttonSing{
+    width: 130px;
+    height: 40px;
+    font-size: 17px;
+    background-color: red ;
+    border: 2px solid black;
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+}
+#buttonSing div{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+    top: 0;
+    top: 100%;
+    transition: 1s;
+    z-index: -1;
+}
+#buttonSing:hover div{
+    top: 0%
+}
+#buttonYing{
+    width: 130px;
+    height: 40px;
+    font-size: 17px;
+    background-color: red ;
+    border: 2px solid black;
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+}
+#buttonYing div{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+    bottom: 0;
+    bottom: 100%;
+    transition: 1s;
+    z-index: -1;
+}
+#buttonYing:hover div{
+    bottom: 0% ;
+}
+#buttonZing{
+    width: 130px;
+    height: 40px;
+    font-size: 17px;
+    background-color: red ;
+    border: 2px solid black;
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+}
+#buttonZing div{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+    bottom: 0;
+    bottom: 100%;
+    transition: cubic-bezierr(.54,1.59,.73,.01);
+    z-index: -1;
+}
+#buttonZing:hover div{
+    bottom: 0% ;
+}
+#buttonHing{
+    width: 130px;
+    height: 40px;
+    font-size: 17px;
+    background-color: red ;
+    border: 2px solid black;
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+}
+#buttonHing div{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+    top: 0;
+    left: 100%;
+    transition: cubic-bezierr(.54,1.59,.73,.01);
+    z-index: -1;
+}
+#buttonHing:hover div{
+    left: 0% ;
+}
+
+#buttonDing{
+    width: 130px;
+    height: 40px;
+    font-size: 17px;
+    background-color: red ;
+    border: 2px solid black;
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+}
+#buttonDing div{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+    top: 0;
+    right: 100%;
+    transition: cubic-bezierr(.54,1.59,.73,.01);
+    z-index: -1;
+}
+#buttonDing:hover div{
+    right: 0% ;
+}
+
+#buttonXing{
+    width: 130px;
+    height: 40px;
+    font-size: 17px;
+    background-color: red ;
+    border: 2px solid black;
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+}
+#buttonXing div{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+    top: 0;
+    right: 100%;
+    transition: cubic-bezierr(.54,1.59,.73,.01);
+    z-index: -1;
+}
+#buttonXing:hover div{
+    right: 0% ;
+}
