@@ -81,38 +81,73 @@
 // cemi ne qeder pul odenecek o cixsin
 // console.log("Amir");
 
-// Funksiya yaşa görə ödəniləcək haqqı hesablayır
+// // Funksiya yaşa görə ödəniləcək haqqı hesablayır
 
-function calculatePayment(age) {
-    if (age < 6) {
-        return 0;
-    } else if (age >= 6 && age <= 18) {
-        return 0.3; // 30 qepik
+// function calculatePayment(age) {
+//     if (age < 6) {
+//         return 0;
+//     } else if (age >= 6 && age <= 18) {
+//         return 0.3; // 30 qepik
+//     } else {
+//         return 0.5; // 50 qepik
+//     }
+// }
+
+// // Funksiya insanın yaşını soruşur və ödəniləcək haqqı hesablayır
+// function askAgeAndCalculatePayment(name) {
+//     const age = parseInt(prompt("zehmet olmasa " + name + "'yaşını yaz:"));
+//     const payment = calculatePayment(age);
+//     return payment;
+// }
+// // Funksiya ümumi ödənilməli məbləği hesablayır
+// function calculateTotalPayment(names) {
+//     let totalPayment = 0;
+//     for (let i = 0; i < names.length; i++) {
+//         const payment = askAgeAndCalculatePayment(names[i]);
+//         totalPayment += payment;
+//     }
+//     return totalPayment;
+// }
+// // Ad siyahısı
+// const names = ["revan"]; // Bura başqa adlar da əlavə edə bilərsiniz
+
+// // Ümumi ödənilməli məbləği hesablayır
+// const totalPayment = calculateTotalPayment(names);
+
+// // Nəticəni konsola çap edir  
+// console.log("Ödəniləcək ümumi məbləğ: " + totalPayment.toFixed(2) + " qepik."); // Əgər varsa, başqa valyutadan istifadə edə bilərsiniz
+class Person {
+    constructor(ad, soyad, yas) {
+        this.ad = ad;
+        this.soyad = soyad;
+        this.yas = yas;
+    }
+}
+
+function arrayOlustur(secim) {
+    let array = [];
+    if (secim.toLowerCase() === "he") {
+        let n = parseInt(prompt("Neçə nəfər əlavə etmək istəyirsiniz?"));
+        for (let i = 0; i < n; i++) {
+            let ad = prompt((i+1) + ". kişinin adı:");
+            let soyad = prompt((i+1) + ". kişinin soyadı:");
+            let yas = parseInt(prompt((i+1) + ". kişinin yaşını girin:"));
+            let person = new Person(ad, soyad, yas);
+            array.push(person);
+        }
+    } else if (secim.toLowerCase() === "yox") {
+        console.log("Array oluşturulmadı.");
     } else {
-        return 0.5; // 50 qepik
+        console.log("Yanlış seçim!");
     }
-}
+    return array;
+}  
+let secim = prompt("Massiv elementləri yaratmaq istəyirsiniz? (he/yox)");
+let myArray = arrayOlustur(secim);
 
-// Funksiya insanın yaşını soruşur və ödəniləcək haqqı hesablayır
-function askAgeAndCalculatePayment(name) {
-    const age = parseInt(prompt("zehmet olmasa " + name + "'yaşını yaz:"));
-    const payment = calculatePayment(age);
-    return payment;
+if (myArray.length > 0) {
+    console.log("Yaradılmış Massiv:");
+    myArray.forEach((person, index) => {
+        console.log((index+1) + ". " + person.ad + " " + person.soyad + ", " + person.yas + " yaşında");
+    });
 }
-// Funksiya ümumi ödənilməli məbləği hesablayır
-function calculateTotalPayment(names) {
-    let totalPayment = 0;
-    for (let i = 0; i < names.length; i++) {
-        const payment = askAgeAndCalculatePayment(names[i]);
-        totalPayment += payment;
-    }
-    return totalPayment;
-}
-// Ad siyahısı
-const names = ["revan"]; // Bura başqa adlar da əlavə edə bilərsiniz
-
-// Ümumi ödənilməli məbləği hesablayır
-const totalPayment = calculateTotalPayment(names);
-
-// Nəticəni konsola çap edir  
-console.log("Ödəniləcək ümumi məbləğ: " + totalPayment.toFixed(2) + " qepik."); // Əgər varsa, başqa valyutadan istifadə edə bilərsiniz
